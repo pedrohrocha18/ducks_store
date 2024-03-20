@@ -7,8 +7,10 @@ function Container({ children }: any) {
       <div>
         <Header />
       </div>
-      <div className="flex items-center justify-center w-[100%]">
+        <div className="bg_home">
+      <div className="container">
         {children}
+        </div>
       </div>
       <div>Footer</div>
     </div>

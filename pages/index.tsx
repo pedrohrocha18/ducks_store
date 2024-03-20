@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 function index({}: Props) {
   return (
-    <div>Página Home</div>
-  )
+    <div className="flex items-center justify-center w-[100vw] text-yellow-200">
+      <h1>Página Home</h1>
+    </div>
+  );
 }
 
-export default index
+export default index;

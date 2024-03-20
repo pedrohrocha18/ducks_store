@@ -6,6 +6,7 @@ export default function Document() {
       <Head />
       <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
       <title>Ducks Store</title>
+      <link rel="shortcut icon" href="icon.png" type="image/x-icon" />
       <body>
         <Main />
         <NextScript />
