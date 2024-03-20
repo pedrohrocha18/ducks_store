@@ -1,6 +1,11 @@
-import "@/styles/globals.css";
+import Container from "@/src/components/Container";
+import "@/src/styles/globals.css";
 import type { AppProps } from "next/app";
 
 export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+  return (
+    <Container>
+      <Component {...pageProps} />
+    </Container>
+  );
 }
